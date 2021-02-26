@@ -1,0 +1,21 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: background: rgb(65,125,51);
+  background: linear-gradient(90deg, rgba(65,125,51,1) 0%, rgba(8,172,16,1) 40%, rgba(196,236,126,1) 93%);
+}
+
+.container {
+  margin: auto;
+  background-color: white;
+  width: 30%;
+}
+
+h1 {
+  padding-bottom: 40px;
+}

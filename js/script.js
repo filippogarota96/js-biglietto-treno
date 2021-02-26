@@ -17,5 +17,9 @@ if (age <= 18) {
 if (age > 65) {
   prezzoScontato = prezzoTotale - (prezzoTotale * 40 / 100);
 }
+if ( age <= 65 && age > 18) {
+  prezzoScontato = 'Non disponibile';
+ }
 
+document.getElementById('sconto').innerHTML = prezzoScontato;
 document.getElementById('sconto').innerHTML = prezzoScontato.toFixed(2) + ' €';
